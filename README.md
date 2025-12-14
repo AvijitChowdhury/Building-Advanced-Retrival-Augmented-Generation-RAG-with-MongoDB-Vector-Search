@@ -1,8 +1,8 @@
-Overview
+### Overview
 
 This project implements an advanced Retrieval-Augmented Generation (RAG) pipeline that integrates MongoDB Vector Search with large language models (LLMs) to deliver context-aware, fact-grounded responses from unstructured data.
 
-Key Features
+### Key Features
 
 Document ingestion and preprocessing
 
@@ -16,7 +16,7 @@ Hybrid search (vector + keyword) and metadata filtering
 
 Modular and scalable RAG architecture
 
-Tech Stack
+### Tech Stack
 
 MongoDB Vector Search
 
@@ -26,7 +26,7 @@ Embedding Models
 
 Python / JavaScript (as applicable)
 
-Use Cases
+### Use Cases
 
 Question answering systems
 
@@ -36,6 +36,7 @@ Document search and analysis
 
 Enterprise AI applications
 
-Outcome
+### Outcome
+The project demonstrates a production-ready RAG system that improves response accuracy, reduces hallucinations, and enables efficient semantic search over large-scale datasets.
 
 The project demonstrates a production-ready RAG system that improves response accuracy, reduces hallucinations, and enables efficient semantic search over large-scale datasets.
