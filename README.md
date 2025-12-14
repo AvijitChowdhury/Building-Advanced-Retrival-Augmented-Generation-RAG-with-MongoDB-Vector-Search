@@ -5,6 +5,21 @@ This project implements an advanced Retrieval-Augmented Generation (RAG) pipelin
 
 ![RAG Workflow](Workflow.png)
 
+Data Ingestion – Raw documents are collected from multiple sources and loaded into the system.
+
+Preprocessing – Text is cleaned, chunked, and normalized to optimize embedding quality.
+
+Embedding Generation – Each text chunk is converted into a high-dimensional vector using an embedding model.
+
+Vector Storage & Indexing – Embeddings and metadata are stored in MongoDB and indexed using MongoDB Vector Search.
+
+Query Processing – User queries are embedded using the same embedding model.
+
+Similarity Retrieval – MongoDB Vector Search retrieves the most relevant document chunks based on vector similarity and optional metadata filters.
+
+Context Augmentation – Retrieved documents are injected into the LLM prompt.
+
+Response Generation – The LLM generates an accurate, context-aware response grounded in retrieved data.
 ### Key Features
 
 Document ingestion and preprocessing
