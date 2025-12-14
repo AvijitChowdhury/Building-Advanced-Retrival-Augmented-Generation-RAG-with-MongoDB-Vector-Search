@@ -1,6 +1,9 @@
 ### Overview
 
 This project implements an advanced Retrieval-Augmented Generation (RAG) pipeline that integrates MongoDB Vector Search with large language models (LLMs) to deliver context-aware, fact-grounded responses from unstructured data.
+## Workflow
+
+![RAG Workflow](workflow.png)
 
 ### Key Features
 
